@@ -70,6 +70,7 @@ void loop() {
         /* code */
         Serial.print(InquiryFrame[i], HEX);
       }
+      Serial.println();
       SimularResposta();
 
   }
